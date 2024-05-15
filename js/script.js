@@ -9,6 +9,8 @@ let sum = 0;
 while (sum < listaSpesa.length) {
     // 5 creo l'elemento li;
     let liElement = document.createElement("li");
+    // aggiungo una classe al li
+    liElement.classList.add("lista");
     // 6 definisco li figlio di ul con appendChild;
     ulElement.appendChild(liElement);
     // 7 aggiungo nel elemento li append listaSpesa[sum];
